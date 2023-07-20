@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Repaint fixed footer and header example</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      main {
+        padding: 44px 0;
+        height: 100vh;
+      }
+      main .vertical-container {
+        height: 100%;
+        overflow: auto;
+      }
+      main .horizontal-container {
+        max-width: 900px;
+        padding: 0 12px;
+        margin: auto;
+      }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      header,
+      footer {
+        width: 100vw;
+        position: fixed;
+        height: 44px;
+        background-color: darkslategrey;
+        color: white;
+      }
+      header .content,
+      footer .content {
+        line-height: 44px;
+        margin: 0;
+        text-align: center;
+      }
+      header {
+        top: 0;
+      }
+      footer {
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <header>
+        <h2 class="content">Awesome header</h2>
+      </header>
+      <main>
+        <div class="vertical-container">
+          <div class="horizontal-container">
+            <p>
+              <b>Lorem ipsum dolor sit amet</b>, consectetur adipiscing elit.
+              Nulla tristique, augue eget vehicula sagittis, est tellus
+              facilisis sem, vitae rutrum ligula neque ac nunc.
+              <b>Vivamus faucibus faucibus posuere.</b>
+              Etiam pulvinar facilisis arcu, et pellentesque magna viverra id.
+              Quisque iaculis odio vel dolor dignissim, id elementum leo
+              volutpat. Sed nisi nisi, dignissim in lacus vel, iaculis cursus
+              orci. Nam blandit odio ac felis pretium, eget blandit urna varius.
+              Phasellus a arcu eros. Morbi feugiat, metus at pellentesque
+              imperdiet, lacus risus dictum magna, at consectetur diam justo vel
+              turpis. Donec suscipit ex vitae lacus lobortis placerat. Cras non
+              turpis tellus. Etiam finibus est vitae mi finibus laoreet. Duis
+              vitae dui sit amet sem euismod gravida ut in nisi.
+            </p>
+            <p>
+              <b>Lorem ipsum dolor sit amet</b>, consectetur adipiscing elit.
+              Nulla tristique, augue eget vehicula sagittis, est tellus
+              facilisis sem, vitae rutrum ligula neque ac nunc.
+              <b>Vivamus faucibus faucibus posuere.</b>
+              Etiam pulvinar facilisis arcu, et pellentesque magna viverra id.
+              Quisque iaculis odio vel dolor dignissim, id elementum leo
+              volutpat. Sed nisi nisi, dignissim in lacus vel, iaculis cursus
+              orci. Nam blandit odio ac felis pretium, eget blandit urna varius.
+              Phasellus a arcu eros. Morbi feugiat, metus at pellentesque
+              imperdiet, lacus risus dictum magna, at consectetur diam justo vel
+              turpis. Donec suscipit ex vitae lacus lobortis placerat. Cras non
+              turpis tellus. Etiam finibus est vitae mi finibus laoreet. Duis
+              vitae dui sit amet sem euismod gravida ut in nisi.
+            </p>
+            <p>
+              <b>Lorem ipsum dolor sit amet</b>, consectetur adipiscing elit.
+              Nulla tristique, augue eget vehicula sagittis, est tellus
+              facilisis sem, vitae rutrum ligula neque ac nunc.
+              <b>Vivamus faucibus faucibus posuere.</b>
+              Etiam pulvinar facilisis arcu, et pellentesque magna viverra id.
+              Quisque iaculis odio vel dolor dignissim, id elementum leo
+              volutpat. Sed nisi nisi, dignissim in lacus vel, iaculis cursus
+              orci. Nam blandit odio ac felis pretium, eget blandit urna varius.
+              Phasellus a arcu eros. Morbi feugiat, metus at pellentesque
+              imperdiet, lacus risus dictum magna, at consectetur diam justo vel
+              turpis. Donec suscipit ex vitae lacus lobortis placerat. Cras non
+              turpis tellus. Etiam finibus est vitae mi finibus laoreet. Duis
+              vitae dui sit amet sem euismod gravida ut in nisi.
+            </p>
+            <p>
+              <b>Lorem ipsum dolor sit amet</b>, consectetur adipiscing elit.
+              Nulla tristique, augue eget vehicula sagittis, est tellus
+              facilisis sem, vitae rutrum ligula neque ac nunc.
+              <b>Vivamus faucibus faucibus posuere.</b>
+              Etiam pulvinar facilisis arcu, et pellentesque magna viverra id.
+              Quisque iaculis odio vel dolor dignissim, id elementum leo
+              volutpat. Sed nisi nisi, dignissim in lacus vel, iaculis cursus
+              orci. Nam blandit odio ac felis pretium, eget blandit urna varius.
+              Phasellus a arcu eros. Morbi feugiat, metus at pellentesque
+              imperdiet, lacus risus dictum magna, at consectetur diam justo vel
+              turpis. Donec suscipit ex vitae lacus lobortis placerat. Cras non
+              turpis tellus. Etiam finibus est vitae mi finibus laoreet. Duis
+              vitae dui sit amet sem euismod gravida ut in nisi.
+            </p>
+            <p>
+              <b>Lorem ipsum dolor sit amet</b>, consectetur adipiscing elit.
+              Nulla tristique, augue eget vehicula sagittis, est tellus
+              facilisis sem, vitae rutrum ligula neque ac nunc.
+              <b>Vivamus faucibus faucibus posuere.</b>
+              Etiam pulvinar facilisis arcu, et pellentesque magna viverra id.
+              Quisque iaculis odio vel dolor dignissim, id elementum leo
+              volutpat. Sed nisi nisi, dignissim in lacus vel, iaculis cursus
+              orci. Nam blandit odio ac felis pretium, eget blandit urna varius.
+              Phasellus a arcu eros. Morbi feugiat, metus at pellentesque
+              imperdiet, lacus risus dictum magna, at consectetur diam justo vel
+              turpis. Donec suscipit ex vitae lacus lobortis placerat. Cras non
+              turpis tellus. Etiam finibus est vitae mi finibus laoreet. Duis
+              vitae dui sit amet sem euismod gravida ut in nisi.
+            </p>
+            <p>
+              <b>Lorem ipsum dolor sit amet</b>, consectetur adipiscing elit.
+              Nulla tristique, augue eget vehicula sagittis, est tellus
+              facilisis sem, vitae rutrum ligula neque ac nunc.
+              <b>Vivamus faucibus faucibus posuere.</b>
+              Etiam pulvinar facilisis arcu, et pellentesque magna viverra id.
+              Quisque iaculis odio vel dolor dignissim, id elementum leo
+              volutpat. Sed nisi nisi, dignissim in lacus vel, iaculis cursus
+              orci. Nam blandit odio ac felis pretium, eget blandit urna varius.
+              Phasellus a arcu eros. Morbi feugiat, metus at pellentesque
+              imperdiet, lacus risus dictum magna, at consectetur diam justo vel
+              turpis. Donec suscipit ex vitae lacus lobortis placerat. Cras non
+              turpis tellus. Etiam finibus est vitae mi finibus laoreet. Duis
+              vitae dui sit amet sem euismod gravida ut in nisi.
+            </p>
+            <p>
+              <b>Lorem ipsum dolor sit amet</b>, consectetur adipiscing elit.
+              Nulla tristique, augue eget vehicula sagittis, est tellus
+              facilisis sem, vitae rutrum ligula neque ac nunc.
+              <b>Vivamus faucibus faucibus posuere.</b>
+              Etiam pulvinar facilisis arcu, et pellentesque magna viverra id.
+              Quisque iaculis odio vel dolor dignissim, id elementum leo
+              volutpat. Sed nisi nisi, dignissim in lacus vel, iaculis cursus
+              orci. Nam blandit odio ac felis pretium, eget blandit urna varius.
+              Phasellus a arcu eros. Morbi feugiat, metus at pellentesque
+              imperdiet, lacus risus dictum magna, at consectetur diam justo vel
+              turpis. Donec suscipit ex vitae lacus lobortis placerat. Cras non
+              turpis tellus. Etiam finibus est vitae mi finibus laoreet. Duis
+              vitae dui sit amet sem euismod gravida ut in nisi.
+            </p>
+            <p>
+              <b>Lorem ipsum dolor sit amet</b>, consectetur adipiscing elit.
+              Nulla tristique, augue eget vehicula sagittis, est tellus
+              facilisis sem, vitae rutrum ligula neque ac nunc.
+              <b>Vivamus faucibus faucibus posuere.</b>
+              Etiam pulvinar facilisis arcu, et pellentesque magna viverra id.
+              Quisque iaculis odio vel dolor dignissim, id elementum leo
+              volutpat. Sed nisi nisi, dignissim in lacus vel, iaculis cursus
+              orci. Nam blandit odio ac felis pretium, eget blandit urna varius.
+              Phasellus a arcu eros. Morbi feugiat, metus at pellentesque
+              imperdiet, lacus risus dictum magna, at consectetur diam justo vel
+              turpis. Donec suscipit ex vitae lacus lobortis placerat. Cras non
+              turpis tellus. Etiam finibus est vitae mi finibus laoreet. Duis
+              vitae dui sit amet sem euismod gravida ut in nisi.
+            </p>
+            <p>
+              <b>Lorem ipsum dolor sit amet</b>, consectetur adipiscing elit.
+              Nulla tristique, augue eget vehicula sagittis, est tellus
+              facilisis sem, vitae rutrum ligula neque ac nunc.
+              <b>Vivamus faucibus faucibus posuere.</b>
+              Etiam pulvinar facilisis arcu, et pellentesque magna viverra id.
+              Quisque iaculis odio vel dolor dignissim, id elementum leo
+              volutpat. Sed nisi nisi, dignissim in lacus vel, iaculis cursus
+              orci. Nam blandit odio ac felis pretium, eget blandit urna varius.
+              Phasellus a arcu eros. Morbi feugiat, metus at pellentesque
+              imperdiet, lacus risus dictum magna, at consectetur diam justo vel
+              turpis. Donec suscipit ex vitae lacus lobortis placerat. Cras non
+              turpis tellus. Etiam finibus est vitae mi finibus laoreet. Duis
+              vitae dui sit amet sem euismod gravida ut in nisi.
+            </p>
+            <p>
+              <b>Lorem ipsum dolor sit amet</b>, consectetur adipiscing elit.
+              Nulla tristique, augue eget vehicula sagittis, est tellus
+              facilisis sem, vitae rutrum ligula neque ac nunc.
+              <b>Vivamus faucibus faucibus posuere.</b>
+              Etiam pulvinar facilisis arcu, et pellentesque magna viverra id.
+              Quisque iaculis odio vel dolor dignissim, id elementum leo
+              volutpat. Sed nisi nisi, dignissim in lacus vel, iaculis cursus
+              orci. Nam blandit odio ac felis pretium, eget blandit urna varius.
+              Phasellus a arcu eros. Morbi feugiat, metus at pellentesque
+              imperdiet, lacus risus dictum magna, at consectetur diam justo vel
+              turpis. Donec suscipit ex vitae lacus lobortis placerat. Cras non
+              turpis tellus. Etiam finibus est vitae mi finibus laoreet. Duis
+              vitae dui sit amet sem euismod gravida ut in nisi.
+            </p>
+            <p>
+              <b>Lorem ipsum dolor sit amet</b>, consectetur adipiscing elit.
+              Nulla tristique, augue eget vehicula sagittis, est tellus
+              facilisis sem, vitae rutrum ligula neque ac nunc.
+              <b>Vivamus faucibus faucibus posuere.</b>
+              Etiam pulvinar facilisis arcu, et pellentesque magna viverra id.
+              Quisque iaculis odio vel dolor dignissim, id elementum leo
+              volutpat. Sed nisi nisi, dignissim in lacus vel, iaculis cursus
+              orci. Nam blandit odio ac felis pretium, eget blandit urna varius.
+              Phasellus a arcu eros. Morbi feugiat, metus at pellentesque
+              imperdiet, lacus risus dictum magna, at consectetur diam justo vel
+              turpis. Donec suscipit ex vitae lacus lobortis placerat. Cras non
+              turpis tellus. Etiam finibus est vitae mi finibus laoreet. Duis
+              vitae dui sit amet sem euismod gravida ut in nisi.
+            </p>
+            <p>
+              <b>Lorem ipsum dolor sit amet</b>, consectetur adipiscing elit.
+              Nulla tristique, augue eget vehicula sagittis, est tellus
+              facilisis sem, vitae rutrum ligula neque ac nunc.
+              <b>Vivamus faucibus faucibus posuere.</b>
+              Etiam pulvinar facilisis arcu, et pellentesque magna viverra id.
+              Quisque iaculis odio vel dolor dignissim, id elementum leo
+              volutpat. Sed nisi nisi, dignissim in lacus vel, iaculis cursus
+              orci. Nam blandit odio ac felis pretium, eget blandit urna varius.
+              Phasellus a arcu eros. Morbi feugiat, metus at pellentesque
+              imperdiet, lacus risus dictum magna, at consectetur diam justo vel
+              turpis. Donec suscipit ex vitae lacus lobortis placerat. Cras non
+              turpis tellus. Etiam finibus est vitae mi finibus laoreet. Duis
+              vitae dui sit amet sem euismod gravida ut in nisi.
+            </p>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <h3 class="content">Awesome footer</h3>
+      </footer>
+    </div>
+  </body>
+</html>
