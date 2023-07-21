@@ -55,34 +55,33 @@
         <div class="vertical-container">
           <div class="horizontal-container">
             <p>
-              <b>Lorem ipsum dolor sit amet</b>, consectetur adipiscing elit.
-              Nulla tristique, augue eget vehicula sagittis, est tellus
-              facilisis sem, vitae rutrum ligula neque ac nunc.
-              <b>Vivamus faucibus faucibus posuere.</b>
-              Etiam pulvinar facilisis arcu, et pellentesque magna viverra id.
-              Quisque iaculis odio vel dolor dignissim, id elementum leo
-              volutpat. Sed nisi nisi, dignissim in lacus vel, iaculis cursus
-              orci. Nam blandit odio ac felis pretium, eget blandit urna varius.
-              Phasellus a arcu eros. Morbi feugiat, metus at pellentesque
-              imperdiet, lacus risus dictum magna, at consectetur diam justo vel
-              turpis. Donec suscipit ex vitae lacus lobortis placerat. Cras non
-              turpis tellus. Etiam finibus est vitae mi finibus laoreet. Duis
-              vitae dui sit amet sem euismod gravida ut in nisi.
+              This is a very common webpage example that has a fixed header,
+              fixed footer and a big scrollable content in the middle. This
+              project aims to demonstrate the layer repaint efficiency by
+              creating layers for each part of the website. By having different
+              layers, if one of them changes, we won't repaint the whole page
+              again. To see the layers created by your browser you can use
+              Chrome (I'm actually on version 114) DevTools. You can open
+              DevTools and then click on the three dots for more options at the
+              top rightmost position on the DevTools, on the right of the
+              closing/X button.
             </p>
             <p>
-              <b>Lorem ipsum dolor sit amet</b>, consectetur adipiscing elit.
-              Nulla tristique, augue eget vehicula sagittis, est tellus
-              facilisis sem, vitae rutrum ligula neque ac nunc.
-              <b>Vivamus faucibus faucibus posuere.</b>
-              Etiam pulvinar facilisis arcu, et pellentesque magna viverra id.
-              Quisque iaculis odio vel dolor dignissim, id elementum leo
-              volutpat. Sed nisi nisi, dignissim in lacus vel, iaculis cursus
-              orci. Nam blandit odio ac felis pretium, eget blandit urna varius.
-              Phasellus a arcu eros. Morbi feugiat, metus at pellentesque
-              imperdiet, lacus risus dictum magna, at consectetur diam justo vel
-              turpis. Donec suscipit ex vitae lacus lobortis placerat. Cras non
-              turpis tellus. Etiam finibus est vitae mi finibus laoreet. Duis
-              vitae dui sit amet sem euismod gravida ut in nisi.
+              You'll see a menu popping up, move your mouse over More Tools and
+              then look for Layers on the new pop up that just opened. Click on
+              Layers and you'll see a new tab on your DevTools. You'll then see
+              three button right under the DevTools tabs. Click on the second
+              one and then click and drag the page preview being displayed on
+              the Layers tab. You'll be able to rotate the page and see the
+              distance between the base page and the layers that were created
+              that should be floating.
+            </p>
+            <p>
+              Also, if you would like, you can use Chrome to highlight every
+              repaint in your webpage. Just go to the DevTools > Three Dots >
+              More tools > Rendering and then check the Paint flashing checkbox.
+              You can now scroll the webpage and see the browser repainting the
+              page as little as possible.
             </p>
             <p>
               <b>Lorem ipsum dolor sit amet</b>, consectetur adipiscing elit.
